@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,900;1,700&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+/* hsl(245, 75%, 52%) button and link */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(225, 100%, 94%) url(images/pattern-background-desktop.svg) no-repeat;
+    background-position: right 0 top -100px !important;
+    background-size: contain;
+}
+.summary-card h3 {
+    color: hsl(223, 47%, 23%);
+}
+.order-card {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 2px 5px 20px hsl(223, 26%, 87%);
+    border-radius: 1rem;
+    background: #fff;
+}
+.summary-card p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    padding: 1.5rem 0;
+}
+.summary-card {
+    padding: 3rem 2rem;
+    background: #fff;
+    transform: translate(0%, -5%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.music-section, .demacate {
+    display: flex;
+    flex-direction: row;
+}
+.music-section {
+    justify-content: space-between;
+    background: hwb(232 94% 0%);
+    border-radius: 1rem;
+    padding: 10px 5px;
+}
+.remove {
+    padding: 0 !important;
+}
+.sec-txt {
+    padding: 0.2rem 0 0 1rem;
+}
+a {
+    color: hsl(245, 75%, 52%);
+    transition: 1s ease-in-out;
+}
+a:hover {
+   text-decoration: none;
+}
+.link {
+    padding: 0.5rem 0 0 0rem !important;
+
+}
+.btn button {
+    cursor: pointer;
+    margin: 2rem 0;
+    height: 45px;
+    width: 100%;
+    color: #fff;
+    background: hsl(245, 75%, 52%);
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+.btn button:hover {
+    box-shadow: 2px 5px 20px hsl(224, 26%, 71%);
+}
+.change a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.change a:hover {
+    color: hsl(223, 47%, 23%);
+    text-decoration: underline;
+    text-decoration-color: hsl(223, 47%, 23%);
+}
+@media screen and (max-width : 500px) {
+    .order-card {
+        scale: 0.8;
+    }
+    body{background-position: right 0 top 0px !important;}
+}
