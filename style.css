@@ -6,6 +6,7 @@
     margin: 0;
 }
 body {
+    padding-top: 10px;
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     justify-content: center;
