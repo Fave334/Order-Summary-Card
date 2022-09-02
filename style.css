@@ -12,7 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     background: hsl(225, 100%, 94%) url(images/pattern-background-desktop.svg) no-repeat;
-    background-position: right 0 top -100px !important;
     background-size: contain;
 }
 .summary-card h3 {
